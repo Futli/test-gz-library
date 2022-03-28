@@ -1,0 +1,19 @@
+.book-list {
+    list-style: none;
+}
+.book-annotation {
+    
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 7.4em;
+    line-height: 1.8em;   
+}
+.book-cover{    
+    display: flex;
+    object-fit:cover;
+    max-width: 100%;
+    margin: 0 auto;
+
+}

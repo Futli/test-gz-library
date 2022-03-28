@@ -1,0 +1,33 @@
+.comment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.comment-text{
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    
+}
+.comment-avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comment-username{
+    align-self: center;
+}
+.comment-data{
+    width:120px;
+    font-size: 12px;
+    word-wrap: break-word;
+
+}

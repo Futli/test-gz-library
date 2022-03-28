@@ -1,0 +1,34 @@
+.book{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.cover{
+    width: 100%;
+ 
+}
+.book-cover{    
+    margin-right: 20px ;
+    flex: 0 0 auto;
+    align-items: center;
+    flex-direction: column; 
+}
+.book-details{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.annotation{
+    word-wrap: break-word;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+}
+.book-info{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
